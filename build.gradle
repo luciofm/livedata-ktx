@@ -2,8 +2,8 @@
 
 buildscript {
     ext {
-        appcompat_version = '27.1.1'
-        arch_version = '1.1.1'
+        appcompat_version = '1.0.0-alpha1'
+        arch_version = '2.0.0-alpha1'
         dokka_version = '0.9.16'
         junit_version = '4.12'
         kotlin_version = '1.2.41'
@@ -46,7 +46,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.android.tools.build:gradle:3.2.0-alpha15'
         classpath "org.jetbrains.dokka:dokka-gradle-plugin:$dokka_version"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'

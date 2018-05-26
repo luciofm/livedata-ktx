@@ -39,12 +39,12 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation "android.arch.lifecycle:livedata:$arch_version"
-    implementation "com.android.support:appcompat-v7:$appcompat_version"
+    implementation "androidx.lifecycle:lifecycle-livedata:$arch_version"
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     testImplementation "junit:junit:$junit_version"
-    testImplementation "android.arch.core:core-testing:$arch_version"
+    testImplementation "androidx.arch.core:core-testing:$arch_version"
 }
 
 // kotlin docs
